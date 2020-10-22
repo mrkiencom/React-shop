@@ -1,38 +1,74 @@
 .App {
-  text-align: center;
+  margin: 0 80px 0 80px ;
+  height: 1000px;
+  padding-top: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.size{
+  width: 200px;
+  height: 1000px;
+  float:left;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.product {
+  height: auto;
+  width: 1159px;
+  float: right;
+}
+.size button {
+  margin: 0 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: #999;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  }
+
+
+.product h3{
+  border-bottom: 1pt solid rgb(218, 208, 208);
+  padding-left: 40px;
+  font-weight: 10;
+}
+
+img{
+  width: 250px;
+  height: 350px;
+  
+}
+li.images {
+  width: 250px;
+  height: 400px;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin: 0 10px 10px 10px;
+}
+button.buy{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(179, 179, 85);
+  border-style: none;
   color: white;
+  width: 70px;
 }
-
-.App-link {
-  color: #61dafb;
+.size>button:hover{
+  background-color: rgb(145, 140, 140);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.size>button:focus{
+  outline: none;
+  background-color: rgb(44, 43, 43);
+  color:white
+}
+li.images p{
+  margin-top: -10px;
+  
+}
+p.price{
+  font-weight: 50;
 }
